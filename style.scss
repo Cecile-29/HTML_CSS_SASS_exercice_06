@@ -1,0 +1,23 @@
+@mixin titreCouleur {
+  font-size: 2em;
+  font-family: lucida;
+  color: $couleurTitre;
+}
+
+$couleurLien: #C7BF99;
+$couleurTitre: #00688D;
+
+
+.ol{
+  a{
+    color: $couleurLien;
+    &:hover{
+      text-shadow: 0px 0px 9px #777;
+      color: #fff;
+    }
+    &:visited{
+      .h1{@include titreCouleur;}
+      .titre{@include titreCouleur;}
+    }
+  }
+}

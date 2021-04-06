@@ -1,0 +1,19 @@
+.ol a {
+  color: #C7BF99;
+}
+.ol a:hover {
+  text-shadow: 0px 0px 9px #777;
+  color: #fff;
+}
+.ol a:visited .h1 {
+  font-size: 2em;
+  font-family: lucida;
+  color: #00688D;
+}
+.ol a:visited .titre {
+  font-size: 2em;
+  font-family: lucida;
+  color: #00688D;
+}
+
+/*# sourceMappingURL=style.css.map */
